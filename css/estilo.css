@@ -9,7 +9,7 @@ header{
     display: flex;
     flex-direction: row;
     background: url(../backgrounds/flat-world-rock-day-background-with-guitars-speakers_23-2149429179.avif) no-repeat;
-    background-size: cover;
+    background-size: 1000000px;
     padding: 5px 10%;
     justify-content: space-around;
     align-items: center;
@@ -54,8 +54,9 @@ header nav ul li a {
 
 }
 
-header nav ul:hover {
+header nav ul a:hover {
     transform:  scale(1.1);
+    padding: 1em;
 }
 
 header ul li a:hover{
@@ -65,21 +66,20 @@ header ul li a:hover{
 
 
 
-section {
-    border: 50%  solid black ;
-}
-
 
 
 
 main{
-    background-color: blue;
-    padding: 20%;
+    background: url(../backgrounds/hand-drawn-world-rock-day-background_23-2149445205.avif);
+    padding: 5%;
+  
 }
 
 section{ 
     background-color: bisque;
-    margin: 5%;
+    padding: 1%;
+    background-color: aliceblue;
+    border-radius: 50px;
 }
 
 article{
@@ -90,3 +90,78 @@ article{
 body{
     background: url(./img/images.jpeg);
 }
+
+
+
+
+
+section .Texto {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+.Texto h1 {
+    background-color: cornflowerblue;
+    border: none;
+    border-radius:50px ;
+    padding: 1%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.Texto p {
+    display: flex;
+    font-size: 20px;
+    
+   
+}
+
+.Texto img{
+  
+    width:  300px;
+    display: flex;
+    padding: 1%;
+    
+}
+
+section .Texto2 {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+.Texto2 h1 {
+    background-color:cadetblue;
+    border: none;
+    border-radius:50px ;
+    padding: 1%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.Texto2 p {
+    display: block;
+    font-size: 20px;
+   
+}
+
+
+.container {
+    padding: 5%;
+}
+
+.row {
+    padding: 4%;
+    border: 10px solid black;
+}
+
+.col{
+    border: 2px solid black;
+}
+
+
+
+
