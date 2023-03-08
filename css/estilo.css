@@ -82,10 +82,7 @@ section{
     border-radius: 50px;
 }
 
-article{
-     background-color: aqua;
-     margin: 10%;
-}
+
 
 body{
     background: url(./img/images.jpeg);
@@ -97,23 +94,27 @@ body{
 
 section .Texto {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: end;
     flex-wrap: wrap;
 }
 
 .Texto h1 {
-    background-color: cornflowerblue;
+    background: url(../backgrounds/flat-world-rock-day-background-with-guitars-speakers_23-2149429179.avif);
     border: none;
     border-radius:50px ;
     padding: 1%;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: aliceblue;
+    
     
 }
 
 .Texto p {
     display: flex;
     font-size: 20px;
+    text-align: center;
     
    
 }
@@ -151,17 +152,58 @@ section .Texto2 {
 
 .container {
     padding: 5%;
+    background-color: aliceblue;
+
 }
 
 .row {
     padding: 4%;
     border: 10px solid black;
+    background: url(../backgrounds/rock-music-background-seamless-pattern-50685509.jpg);
 }
 
 .col{
     border: 2px solid black;
+    background-color: aliceblue;
+    padding: 5%;
+    margin: 2%;
+}
+
+figcaption{
+    font-size: large;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 
 
+article h2 {
+    background-color: burlywood;
+    border-radius: 10px;
+    width: 15vw;
+    display: flex;
+    text-align: center;
+}
 
+
+.col img:hover{
+    transform:  scale(1.3);
+    padding: 1em;
+    border: 5px solid cornflowerblue;
+}
+
+footer{
+    justify-content: center;
+    display: flex;
+    background: url(../backgrounds/flat-world-rock-day-background-with-guitars-speakers_23-2149429179.avif);
+
+}
+
+footer h3{
+    padding: 1%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+    background-color: black;
+    border-radius: 50px;
+    margin: 2%;
+}
