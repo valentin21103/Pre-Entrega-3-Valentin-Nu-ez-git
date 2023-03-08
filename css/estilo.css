@@ -99,7 +99,7 @@ section .Texto {
     flex-wrap: wrap;
 }
 
-.Texto h1 {
+.Texto .titule {
     background: url(../backgrounds/flat-world-rock-day-background-with-guitars-speakers_23-2149429179.avif);
     border: none;
     border-radius:50px ;
@@ -206,4 +206,24 @@ footer h3{
     background-color: black;
     border-radius: 50px;
     margin: 2%;
+}
+
+.titulo {
+    background:cadetblue;
+    border: none;
+    border-radius:50px ;
+    padding: 1%;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    color: black;
+}
+
+.Titular{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color:brown;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 1%;
+
 }
