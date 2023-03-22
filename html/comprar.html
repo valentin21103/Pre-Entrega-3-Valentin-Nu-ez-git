@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
     <title>Guitargent</title>
 </head>
 <body>
@@ -24,7 +25,20 @@
     <main>
         <section>
             <h1>Registrarse Aqui para acceder a la Compra</h1>
-            
+            <form action="get">Complete los datos</form>
+
+            <fieldset>
+               <input type="text" name="nombres" id="nombres" placeholder="Nombre Completo">
+               <input type="text" name="codigo" id="codigo" placeholder="Correo Electronico">
+               <input type="text" name="auto" id="auto" placeholder="Contraseña">
+               <input type="text" name="licencia" id="licencia" placeholder="Repetir Contraseña">
+               <label for="text">Ingrese Fecha de Nacimiento</label>
+               <input type="date">
+                <p>Estoy de Acuerdo <a href="#">Terminos y Condiciones</a></p>
+                <input type="submit" value="Registrar">
+                
+                <p><a href="#">Ya Tengo Cuenta</a></p>
+            </fieldset>
         </section>
     </main>
 </body>
