@@ -1,3 +1,20 @@
+
+
+
+
+//VARIABLEES SASS
+
+$colores:( white) ;
+
+
+
+
+
+
+
+
+
+
 .register p {
     height: 40px;
     text-align: center;
@@ -19,7 +36,7 @@
            margin: auto;
            margin-top: 100px;
            border-radius: 4px;
-           color: white;
+           color: $colores;
            box-shadow: 7px 13px 37px #000;
 
                                          .botons{
@@ -27,7 +44,7 @@
                                            background-color:  #1f53c5;
                                            border: none;
                                            padding: 12px;
-                                           color:white;
+                                           color:$colores;
                                            margin: 16px 0;
                                            font-size: 16px;
          }
@@ -40,12 +57,12 @@
                                                            margin-bottom: 16px;
                                                            border: 1px solid #1f53c5;
                                                            font-size: 18px;
-                                                           color: white;
+                                                           color: $colores;
 
-                                                                                 a{  color: white;
+                                                                                 a{  color: $colores;
                                                                                      text-decoration: none;
                                                                                        &:hover {
-                                                                                       color: colorcss;
+                                                                                       color: $colores;
                                                                                        text-decoration: underline;
                                        }
                                        

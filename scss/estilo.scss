@@ -7,6 +7,10 @@
 
 @import "navbar";
 @import "form";
+@import "nosotros";
+//VARIABLEES SASS
+/* variables globales */
+$colores:( white) ;
 
 
 
@@ -170,46 +174,6 @@ footer h3{
 
 
   }
-
-
-
-.sec2 .titule {
-    font-size: 80px;
-    justify-content: center;
-    display: flex;
-    padding-bottom: 50px;
-}
-
-.sec2 article p {
-    font-size: 30px;
-}
-
-
-.sec2 article{
-    padding: 80px;
-}
-
-.sec2 article h2 {
-     
-    font-size: 50px;
-    margin: 10px;
-    
-      
-}
-.sec2 article h4 {
-    font-size: 27px;
-    display: flex;
-    padding: 10px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
- 
-
-
-
-//VARIABLEES SASS
-/* variables globales */
- $color:white;
 
 
 

@@ -1,0 +1,41 @@
+
+// variable mapa
+
+
+$estilo:(
+    letra:80px,
+    letramedia:50px,
+    Letrachica:10px
+);
+
+.sec2 .titule {
+    font-size:map-get($map: $estilo, $key:letra );
+    justify-content: center;
+    display: flex;
+    padding-bottom: map-get($map: $estilo, $key: letramedia);
+}
+
+.sec2 article p {
+    font-size: 30px;
+}
+
+
+.sec2 article{
+    padding: map-get($map: $estilo, $key:letra );
+}
+
+.sec2 article h2 {
+     
+    font-size:map-get($map: $estilo, $key: letramedia );
+    margin:map-get($map: $estilo, $key:Letrachica );
+    
+      
+}
+.sec2 article h4 {
+    font-size: 27px;
+    display: flex;
+    padding: map-get($map: $estilo, $key:Letrachica );
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ 
